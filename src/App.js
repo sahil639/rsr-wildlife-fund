@@ -1,12 +1,19 @@
 import './App.css';
 import NavMenu from './components/NavMenu';
-import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router,Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <NavMenu />
-    </Router>     
+      <Navbar />
+      <Switch>
+        <Route path='/' exact />
+      </Switch>
+      
+    </Router>
+           
   );
 }
 
