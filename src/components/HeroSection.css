@@ -6,20 +6,46 @@
     z-index: -1;
 } */
 
+
 .hero-container {
-    background: url('../images/tiger-hero.jpg') center center no-repeat;
+    
+    /* Sizing */
+    width: 100vw;
     height: 100vh;
-    width: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    /* background image  */
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url('../images/tiger-hero.jpg') ;
+    /* background-color: black; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+
+    /* text */
+    text-align: center;
+    color: white;
+    color: white;
+
+    /* arrangement */
     flex-direction: column;
-    align-items: centre;
-    box-shadow: inset 0 0 0 0 1000px rgba(0,0,0,0.2);
+
 }
 
-.h1{
-    color: #ffffff
+.hero-container h1 {
+    /* Text styles */
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.3em;
 }
 
-.p {
-    color: #ffff
+.hero-container p {
+    /* Text styles */
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 2.5em;
 }

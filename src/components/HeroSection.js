@@ -9,8 +9,8 @@ function HeroSection() {
         <div>
             <div className="hero-container">
                 {/* <img src={ HeroImg } alt="me" /> */}
-                <h1>Save ramprakash</h1>
-                <p>doante a wadapaav for sahil , roahna and ram</p>
+                <h1>Fight World Hunger</h1>
+                <p>By Donating Vadapaav for Rohan Sahil and Ramprakash</p>
                 <Button 
                   className="btns" 
                   buttonStyle='btn--outline'
@@ -18,8 +18,8 @@ function HeroSection() {
                   >
                       Donate  
                   </Button>
+            </div>
            </div>
-        </div>
     );
 }
 
