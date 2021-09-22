@@ -40,7 +40,8 @@
     /* Text styles */
     font-size: 5em;
     margin-top: 0;
-    margin-bottom: 0.3em;
+    
+    padding: 0.5em;
 }
 
 .hero-container p {
@@ -48,4 +49,15 @@
     font-size: 1.2em;
     margin-top: 0;
     margin-bottom: 2.5em;
+}
+
+
+@media screen and (max-width: 960px) {
+    .hero-container {
+            font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+       
 }
