@@ -40,6 +40,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
+    justify-content: end;
     width: 60vw;
     margin-right: 2rem;
   }
@@ -68,6 +69,7 @@
   
   .nav-links-mobile {
     display: none;
+    
   }
   
   .menu-icon {
@@ -82,6 +84,7 @@
     .nav-menu {
       display: flex;
       flex-direction: column;
+      justify-content: start;
       width: 100%;
       height: 90vh;
       position: absolute;
