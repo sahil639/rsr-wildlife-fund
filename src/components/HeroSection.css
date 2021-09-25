@@ -8,7 +8,7 @@
 
 
 .hero-container {
-    
+    margin-top: -80px;
     /* Sizing */
     width: 100vw;
     height: 100vh;
@@ -18,7 +18,7 @@
     
 
     /* background image  */
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url('../images/tiger-hero.jpg') ;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url('https://images.unsplash.com/photo-1618241905518-f5e08c8e539d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1954&q=80') ;
     /* background-color: black; */
     background-position: center center;
     background-repeat: no-repeat;
@@ -28,7 +28,6 @@
 
     /* text */
     text-align: center;
-    color: white;
     color: white;
 
     /* arrangement */
@@ -40,21 +39,22 @@
     /* Text styles */
     font-size: 5em;
     margin-top: 0;
-    
     padding: 0.5em;
+    padding-bottom: 0.1em;
+    margin-bottom: 0.2em;
 }
 
 .hero-container p {
     /* Text styles */
     font-size: 1.2em;
     margin-top: 0;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.3em;
 }
 
 
 @media screen and (max-width: 960px) {
     .hero-container {
-            font-size: 1.2em;
+            font-size: 1em;
     }
 }
 

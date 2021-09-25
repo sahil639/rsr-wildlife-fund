@@ -6,9 +6,9 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.about,
+.donate {
+  margin-top: -80px;
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,8 +16,9 @@
   font-size: 3rem;
 }
 
-.services {
-  /* background-image: url('../public/images/tiger-hero.jpg'); */
+.about {
+  margin-top: -80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1517486430290-35657bdcef51?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,17 +26,8 @@
   font-size: 100px;
 }
 
-.products {
-  /* background-image: url('../public/images/tiger-hero.jpg'); */
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  /* background-image: url('../public/images/tiger-hero.jpg'); */
+.donate {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1468560721961-0c42d2f9dcf9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
