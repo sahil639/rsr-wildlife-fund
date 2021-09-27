@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../App.css'
+import Footer from '../Footer';
 
 // function About() {
 //     return (
@@ -10,5 +11,9 @@ import '../../App.css'
 // }
 
 export default function Donate() {
-    return <h1 className="donate">Donate</h1>;
+    return(
+        <><h1 className="donate">Donate</h1><>
+        </><Footer /></>
+    ) 
+    ;
 }
