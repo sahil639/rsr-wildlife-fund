@@ -76,9 +76,14 @@
     display: none;
     
   }
-  
+
   .menu-icon {
     display: none;
+  }
+  
+  #rh-icon {
+    height: auto;
+    width: 2rem;
   }
   
   @media screen and (max-width: 960px) {

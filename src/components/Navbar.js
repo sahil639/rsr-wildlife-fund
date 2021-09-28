@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import icon from '../img/favicon.ico'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -39,6 +40,11 @@ function Navbar() {
   return (
     <>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
+        <div>
+          <Link to="#">
+          <img id="rh-icon" src={icon} alt="" srcset="" />
+          </Link> 
+        </div>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             RSR
