@@ -3,3 +3,10 @@
     background: #161616;
     width: 100vw;
   }
+
+p {
+    text-align: center;
+    margin-top: 2em;
+    align-items: center;
+    color: rgb(211, 211, 211);
+  }
